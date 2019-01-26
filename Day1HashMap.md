@@ -1,6 +1,11 @@
 ## 哈希表的学习
 #### 哈希表的原理
 哈希表就是一种以 键-值(key-indexed) 存储数据的结构，我们只要输入待查找的值即key，即可查找到其对应的值。
+使用哈希查找有两个步骤:
+
+使用哈希函数将被查找的键转换为数组的索引。在理想的情况下，不同的键会被转换为不同的索引值，但是在有些情况下我们需要处理多个键被哈希到同一个索引值的情况。
+
+所以哈希查找的第二个步骤就是处理冲突
 #### LeetCode题目练习
 ##### 1.两数之和
 题目描述：
@@ -42,6 +47,9 @@
     }
 } 
   ```
+  
+  ![image](https://github.com/MasonJCode/DatawhaleLearning/blob/master/leetcode01.png?raw=true)
+  
 ##### 202.快乐数
 题目描述：编写一个算法来判断一个数是不是“快乐数”。
 
@@ -92,6 +100,19 @@
     }
 } 
  ```
+ ![image](https://github.com/MasonJCode/DatawhaleLearning/blob/master/leetcode02.png?raw=true)
+ 
+ 
+ # 参考链接：
+ 
+ [浅谈哈希表](https://www.cnblogs.com/yangecnu/p/Introduce-Hashtable.html)
+ 
+ [https://www.cnblogs.com/grandyang/p/4447233.html](https://www.cnblogs.com/grandyang/p/4447233.html)
+ 
+ [https://www.cnblogs.com/lightwindy/p/8564438.html](https://www.cnblogs.com/lightwindy/p/8564438.html)
+ 
+ [https://blog.csdn.net/weixin_38659949/article/details/82699073](https://blog.csdn.net/weixin_38659949/article/details/82699073)
+ 
  
 
   
