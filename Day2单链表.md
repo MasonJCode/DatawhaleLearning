@@ -7,8 +7,7 @@
 单链表是一种线性表的链式存储结构，因为此链表的每个结点中只包含一个指针域，所以叫 做单链表。
 
 #### 2.单链表的图示
-
-<img src="http://dl2.iteye.com/upload/attachment/0096/0696/3b1cbad3-1bc6-3e9a-8b1e-734db18fa64e.png"/>
+![image](https://github.com/MasonJCode/DatawhaleLearning/blob/master/%E5%8D%95%E9%93%BE%E8%A1%A8%E5%9B%BE%E7%A4%BA.png?raw=true)
 
 #### 3.单链表的操作
 
@@ -19,8 +18,10 @@
   首先要先找到索引为index-1的节点，然后生成一个数据为element的新节点newNode，
 
   并令index-1处节点的next指向新节点，新节点的next指向原来index处的节点。
+  
+  ![image](https://github.com/MasonJCode/DatawhaleLearning/blob/master/%E9%93%BE%E8%A1%A8%E6%93%8D%E4%BD%9C.png?raw=true)
 
-  <img src="http://dl2.iteye.com/upload/attachment/0096/0698/e0bc6920-02f3-3d99-a57c-86dee61e8531.png"/>
+
 
 + 删除操作：
 
@@ -29,8 +30,10 @@
   因此删除index的节点要先获取index-1处的节点，
 
   然后让index-1出节点的next引用到原index+1处的节点，并释放index处节点即可。
+  ![Image](https://github.com/MasonJCode/DatawhaleLearning/blob/master/%E9%93%BE%E8%A1%A8%E5%88%A0%E9%99%A4.png?raw=true)
+  
 
-  <img src="http://dl2.iteye.com/upload/attachment/0096/0700/a8753cf7-3144-331e-871e-a2eb9ec2d7c0.png"/>
+
 
 #### 4.参考链接
 
