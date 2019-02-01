@@ -73,7 +73,7 @@ c[i] [m] = max{c[i-1] [m-w[i]]+pi,c[i-1] [m]}
 
 　　c[i-1] [m-w[i]] ： 前i-1个物体放入容量为m-w[i]的背包的最大价值；
 
-具体代码：参加
+具体代码：参见Day5笔记：https://github.com/MasonJCode/DatawhaleLearning/blob/master/Day5%E9%80%92%E5%BD%92%E5%8F%8ADP.md
 
 
 
